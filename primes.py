@@ -14,9 +14,10 @@ def primes(number_of_primes):
                     break
                 else:
                     flag = True
+                    
             if flag:
                 list.append(numbers)
             numbers = numbers + 1
-     else:
-         raise ValueError()
+    else:
+        raise ValueError()
     return list
